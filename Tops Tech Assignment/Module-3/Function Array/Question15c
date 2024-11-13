@@ -1,0 +1,31 @@
+// 15.Store 5 numbers in array and sort it in ascending order
+
+#include<stdio.h>
+int main () {
+int arr[5];
+int i,z,tem;
+printf("Enter Element for Array: ");
+for (i=0;i<5;i++){
+    scanf("%d",&arr[i]);
+}
+printf("Printing Array: \n");
+for (i=0;i<5;i++)
+printf("%d   ",arr[i]);
+// Ascending Order
+
+for (i=0;i<5;i++){
+    for (z=0;z<5;z++){
+        if(arr[i]>arr[z]){
+            tem=arr[z];
+            arr[z]=arr[i];
+            arr[i]=tem;
+        }
+    }
+}
+printf("\nPrinting Array in Ascending Order: \n");
+    for(i=0;i<5;i++){
+        printf("%d \t",arr[i]);
+    }
+
+
+}

@@ -5,6 +5,9 @@
 // d. Sum of odd numbers
 
 
+// Run this code in https://www.programiz.com/c-programming/online-compiler/ 
+
+
 #include <stdio.h>
 int main()
 {

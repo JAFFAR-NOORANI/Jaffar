@@ -11,9 +11,10 @@ int main(){
     int row,col;
  int ch;
     for(row=1;row<=5;row++){
+        ch=0;
         for(col=1;col<=row;col++){
             printf("%c ",ch+65);
-            ch++;
+             ch++;
               }
         printf("\n");
     }
