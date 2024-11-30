@@ -1,0 +1,25 @@
+Question 2: Explain the basic structure of an HTML document.
+ Identify the mandatory tags and their purposes. 
+
+ Answer  : An HTML document consists of specific tags that form the skeleton of the page. Here’s are some of the basic HTML document structure.
+
+1. **`<!DOCTYPE html>`**:
+   - Purpose of DOCTYPE HTML is to Declares the document type and version of HTML being used. It ensures proper rendering of the document by the respective browser.
+   - For Example: `<!DOCTYPE html>` indicates the document is in HTML5.
+
+2. **`<html>`**:
+   - Purpose of this  is  root element that contains all other elements in the document.
+   - For Example: `<html>` starts the HTML document, and `</html>` closes it.
+
+3. **`<head>`**:
+   - Purpose of HEAD is to Contains metadata about the document (not displayed directly on the webpage).
+   - For Example: Includes elements like `<title>`, `<meta>`, `<style>`, and `<link>`, etc.
+
+4. **`<title>`**:
+   - TITLE Purpose is to Specifies the title of the document displayed on the browser tab or when bookmarked.
+   - Example: `<title>My Website</title>`.
+
+5. **`<body>`**:
+   - Purpose of BODY Contains the visible content of the HTML document, such as text, images, and links.
+   - Example: `<body>` encloses all the content shown to the user.
+

@@ -1,0 +1,33 @@
+Question 4: Discuss the role of semantic HTML.
+Why is it important for accessibility and SEO? Provide examples of semantic elements.
+
+Answer:  Semantic HTML refers to using HTML elements which plays a crucial role in web development by providing meaningful structure to a webpage. It allows search engines and assistive technologies like screen readers to better understand the content and context of each element
+on the page. This is important for accessibility and SEO because it enables search engines to crawl and index.
+Unlike non-semantic elements like <div> or <span>, semantic elements clearly define their role in the document structure.
+
+Importance of Semantic HTML
+
+1) Improves Accessibility: By using semantic tags, screen readers can accurately interpret the page structure and navigate content more effectively, providing a better experience for users with visual impairments. For example, <nav> indicates navigation menus, and <header> signifies a page header, helping visually impaired users understand the context.
+
+2) Enhances SEO : Search engines can readily identify the key sections of a page, like headers, navigation, and main content, which can positively impact search engine ranking by providing a clearer understanding of the page's organization and relevance to search queries. For instance, <article> or <section> tags help search engines index content more accurately, improving visibility in search results.
+
+3) Improves Code Readability and Maintainability: When a screen reader encounters a <nav> tag, it will announce to the user that they are navigating to a new section of the page, allowing them to quickly jump to relevant content. This elements convey their purpose without needing comments or additional documentation.
+
+4) Future-Proof and Standard-Compliant:  Semantic HTML adheres to web standards, ensuring compatibility with current and future technologies.
+
+
+Examples of Semantic Elements
+
+Structural Elements
+<header>: 
+<footer>  
+<main>
+
+Content-Specific Elements
+
+<article>
+<section>
+<nav>
+<aside>
+
+Semantic HTML ensures that web pages are robust, usable, and easily understood by both humans and machines.

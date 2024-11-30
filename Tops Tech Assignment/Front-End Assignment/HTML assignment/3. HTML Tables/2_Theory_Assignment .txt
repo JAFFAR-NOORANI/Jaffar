@@ -1,0 +1,40 @@
+Question 2: What is the difference between colspan and rowspan in tables? Provide examples.
+
+Answer: 
+Difference Between colspan and rowspan in Tables
+The difference between colspan and rowspan in HTML tables is that colspan merges cells horizontally, while rowspan merges cells vertically.
+
+
+1. colspan : It is used to  Merges (spans) a cell across multiple columns . Its effects will Create a single cell that stretches horizontally across the specified number of columns. It is Used When a cell's content applies to multiple columns.
+
+Example :
+<table border="1">
+  <tr>
+    <th>Product</th>
+    <th colspan="2">Price</th>
+  </tr>
+  <tr>
+    <td>Apple</td>
+    <td>$1</td>
+    <td>Discounted</td>
+  </tr>
+</table>
+
+
+2. rowspan : It is used to  Merges (spans) a cell across multiple rows . Its effects will Create a single cell that stretches vertically across the specified number of rows. It is Used When a cell's content applies to multiple rows.
+
+Example :
+<table border="1">
+  <tr>
+    <th rowspan="2">Product</th>
+    <th>Price</th>
+    <th>Status</th>
+  </tr>
+  <tr>
+    <td>$1</td>
+    <td>Available</td>
+  </tr>
+</table>
+
+
+Both colspan and rowspan are attributes of the table tag and take numeric values. Designers can use these attributes to merge cells and define the layout of a table. They can also be used together to create a variety of tables. 

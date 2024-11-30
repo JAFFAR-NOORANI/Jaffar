@@ -1,0 +1,24 @@
+Question 2: Explain the difference between the GET and POST methods in form submission. When should each be used? 
+
+Answer : The main difference between the GET and POST methods for form submission is that GET is used to request data, while POST is used to send data:
+
+GET
+Used to request data, such as for searching, filtering, or paging. GET is ideal for sending one or two simple variables, like search parameters. However, GET is less secure  as Data is visible in the URL and should not be used for sensitive data. It can  request Limited data size (depending on browser and server, typically 2000–8000 characters). Its is most Suitable for requests that don’t modify server data (e.g., search queries). It Can be bookmarked and cached by browsers.
+
+
+
+POST
+Used to send data to a server to create or update a resource. POST is perfect for forms that include passwords, credit card information, or other data that needs extra protection as Data is not visible in the URL. POST is more secure than GET (data is not exposed in the URL, but still not encrypted unless HTTPS is used).. It has No size limit on the data (though subject to server configuration). It is Suitable for requests that modify server data, like creating or updating records. It Cannot be bookmarked or cached.
+
+
+
+When to Use Each Method
+GET:
+For retrieving data that doesn’t require privacy or security.
+For actions that can be bookmarked or shared (e.g., search results, product filters).
+
+
+POST:
+For sending sensitive information (e.g., login credentials, payment details).
+When uploading files or sending large amounts of data.
+For actions that modify server-side data (e.g., creating user accounts, submitting forms).

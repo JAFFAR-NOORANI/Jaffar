@@ -1,0 +1,42 @@
+Question 1: What are HTML forms used for? 
+Describe the purpose of the input, textarea, select, and button elements.
+
+Answer: HTML forms are used to collect and submit user input to a server for processing. These controls range from text fields, numeric inputs,and email fields to password fields, checkboxes, radio buttons, and submit buttons. Forms act as a container for input fields and interactive elements that allow users to enter data.
+
+Key Elements of HTML Forms
+
+1. <input>
+- Used for single-line text input, password fields, checkboxes, radio buttons, and numeric inputs
+
+Attributes:
+
+type: Specifies the type of input (e.g., text, password, email, checkbox).
+name: Identifies the field when data is submitted.
+placeholder: Provides a hint for users.
+value: Sets a default value.
+
+2. <textarea>
+- Used for multi-line text input, such as comments or messages.
+
+Attributes:
+
+rows and cols: Specify the size of the text area.
+placeholder: Provides a hint for users.
+name: Identifies the field when data is submitted.
+
+3. <select>
+- Used for dropdown menus or lists of options.
+
+Attributes:
+
+name: Identifies the field when data is submitted.
+multiple: Allows selection of multiple options.
+
+4. <button>
+- Used to create a clickable button that can submit a form or perform other actions. Its also can trigger JavaScript functions.
+
+Types:
+
+type="submit": Submits the form data.
+type="reset": Resets form fields to their default values.
+type="button": A general-purpose button, often controlled by JavaScript.

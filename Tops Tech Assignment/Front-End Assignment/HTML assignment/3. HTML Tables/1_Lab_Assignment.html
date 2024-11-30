@@ -1,0 +1,108 @@
+<!-- Lab Assignment -->
+<!--  Task: Create a product catalog table that includes the following columns: 
+  o Product Name o Product Image (use placeholder image URLs) o Price o Description o Availability (in stock, out of stock) -->
+
+<!-- Additional Requirements: -->
+<!-- o Use thead for the table header. o Add a border and some basic styling using inline CSS. o Use colspan or rowspan to merge cells where applicable. -->
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        tr{
+            border: 3px dotted rgb(76, 12, 225);
+        }
+    </style>
+</head>
+<body>
+    
+    <table border="4px" style=" text-align: center  ; "width="70%" cellpadding="20px" >
+        <caption><h1>Vege-Table</h1></caption>
+
+        <thead style="border: 3px dashed rgb(75, 237, 42);">
+            <tr style="background-color: rgba(255, 12, 12, 0.749);">
+                <th><h3>Product name</h3> </th>
+                <th> <h3>Product Image</h3></th>
+                <th> <h3>Price  </h3></th>
+                <th><h3>Discription</h3></th>
+                <th> <h3>Availibitly</h3></th>
+            </tr>
+        </thead>
+
+
+<tr>
+    <td>Premium Tomato</td>
+    <td>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSWFp1rriDqHNtrQE_TTavzBMIyF0-eU8QJg&s" alt="" height="50px"placeholder="IMG" ></td>
+        <td> Rs 130</td>
+        <td>Premium Tomato</td>
+        <td>
+            <input type="radio" name="Rice" id="Y">
+            <label for="">Availible</label>
+            <input type="radio" name="Rice" id="N">
+            <label for="">Not Availible</label>        
+        </td>
+</tr>
+<tr>
+    <td>Farm Fresh Potato</td>
+    <td>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAB6_1INnSltIEZwLEmzFuhUyGfNNoBmVKXQ&s" alt="" height="50px"></td>
+        <td> Rs 50</td>
+        <td>Farm Fresh Potato</td>
+        <td>
+           
+             <input type="radio" name="potato" id="Y">
+            <label for="">Availible</label>
+            <input type="radio" name="potato" id="N">
+            <label for="">Not Availible</label>         
+
+             <!-- <select name="" Available="">
+            <option value="">---select---</option>
+            <option value="">Available</option>
+            <option value="">Non Available</option>
+        </select> -->
+        </td>
+</tr>
+
+<tr>
+    <td>Broccoli</td>
+    <td>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_9WxpIaw0ZSaNJ8yukcmPjDAadbdWqTOt8g&s" alt="" height="50px"></td>
+        <td> Rs 150</td>
+        <td>Broccoli</td>
+        <td>
+            <input type="radio" name="broccoli" id="Y">
+            <label for="">Availible</label>
+            <input type="radio" name="b" id="N">
+            <label for="">Not Availible</label>        
+        </td>
+</tr>
+
+<tr>
+  <td>Avocado</td>
+  <td>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkw5F_UHSO-j3oL_uW6h5qsCU-KS0j1CGQJQ&s" alt="" height="50px"></td>
+      <td> Rs 170</td>
+      <td>Avocado</td>
+      <td>
+          <input type="radio" name="Avocado" id="Y">
+          <label for="">Availible</label>
+          <input type="radio" name="b" id="N">
+          <label for="">Not Availible</label>        
+      </td>
+</tr>
+
+
+
+
+    </table>
+</body>
+</html>

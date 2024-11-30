@@ -1,0 +1,23 @@
+as per layout tags are : 
+
+1. sementic tag  : 
+    which has a meaning. tell about them self.
+    p, b, a, img, embed, iframe
+
+2. non-sementic tag 
+    which has no meaning
+    div and span 
+
+footer, 
+header, 
+main, 
+nav, 
+section, 
+aside, 
+article, 
+div  
+
+demo webiste reference : 
+1. w3layout 
+2. colorlib
+3. https://www.wix.com/website/templates

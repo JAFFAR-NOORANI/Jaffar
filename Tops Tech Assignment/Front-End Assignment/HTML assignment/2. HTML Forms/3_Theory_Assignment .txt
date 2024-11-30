@@ -1,0 +1,26 @@
+Question 3: What is the purpose of the label element in a form, and how does it improve accessibility?
+
+Answer : The <label> element in HTML is used to associate a descriptive label with a form control (e.g., <input>, <textarea>, <select>). Its primary purpose is to provide users clear description of each form control, which improves accessibility and usability including those using assistive technologies, 
+
+How label Improves Accessibility
+
+For Screen Reader Users:
+Labels help screen reader users understand what data to enter into a form. When a user focuses on a form input, the screen reader will read out the associated label. 
+
+For Users with Mobility Challenges:
+By Clicking the label it focuses on the associated form element, making it easier to interact with small or hard-to-click elements like checkboxes.
+
+For Visual Clarity:
+Labels help clarify the purpose of form controls, thus reducing user errors.
+
+
+Benefits of Using label
+
+Improved Usability:
+It Enhances the user experience with interactive and descriptive form elements.
+
+Better Accessibility:
+It Ensures that assistive technologies understand and convey the purpose of form controls effectively.
+
+Ease of Interaction:
+By Clicking the label focuses on the corresponding form control, reducing effort for users.
